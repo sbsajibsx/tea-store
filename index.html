@@ -28,15 +28,34 @@
       <!-- tailwind style end -->
 </head>
 <body>
-    <header>
-        <div class="banner-section">
-            <div class="banner-1">
-                <h3 class="banner-title">It's good tea time at The Tea House</h3>
-                <p class="banner-paragraph">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="banner-btn">Explore More</button>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header>
+            <div class="flex pt-10 mb-20">
+                <!-- text section -->
+                <div>
+                    <h3 class="text-5xl md:text-7xl">It's good <br> tea time at The <br> Tea House</h3>
+                    <p class="text-gray-500 w-3/4 mb-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 py-3 px-5 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
+                </div>
+                <!-- image section -->
+                <div class="relative">
+                    <!-- img -->
+                     <div>
+                        <img class="w-full" src="images/banner.png" alt="">
+                     </div>
+                    <!-- card -->
+                     <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:left-32  md:top-80 lg:left-28">
+                        <!-- icon -->
+                         <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                         <!-- text -->
+                          <div class="ml-2">
+                            <h2 class="lg:text-2xl font-bold">5.00</h2>
+                            <p class="text-gray-500">Trust Pilot Ratings</p>
+                          </div>
+                     </div>
+                </div>
             </div>
-            <div class="banner-2"></div>
-        </div>
-    </header>
+        </header>
+    </main>
 </body>
 </html>
